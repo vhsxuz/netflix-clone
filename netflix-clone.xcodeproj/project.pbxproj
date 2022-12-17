@@ -49,6 +49,7 @@
 		69743506294DA100004A11C6 /* netflix-cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "netflix-cloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6974350A294DA100004A11C6 /* netflix_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = netflix_cloneUITests.swift; sourceTree = "<group>"; };
 		6974350C294DA100004A11C6 /* netflix_cloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = netflix_cloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		69743519294DA4A9004A11C6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		697434DD294DA0FF004A11C6 = {
 			isa = PBXGroup;
 			children = (
+				69743519294DA4A9004A11C6 /* README.md */,
 				697434E8294DA0FF004A11C6 /* netflix-clone */,
 				697434FF294DA100004A11C6 /* netflix-cloneTests */,
 				69743509294DA100004A11C6 /* netflix-cloneUITests */,
