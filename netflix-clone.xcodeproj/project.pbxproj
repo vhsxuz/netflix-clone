@@ -50,6 +50,8 @@
 		6974350A294DA100004A11C6 /* netflix_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = netflix_cloneUITests.swift; sourceTree = "<group>"; };
 		6974350C294DA100004A11C6 /* netflix_cloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = netflix_cloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		69743519294DA4A9004A11C6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		69D1926E294DA6A4003575A7 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		69D1926F294DA6FC003575A7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,8 @@
 		697434DD294DA0FF004A11C6 = {
 			isa = PBXGroup;
 			children = (
+				69D1926F294DA6FC003575A7 /* .gitignore */,
+				69D1926E294DA6A4003575A7 /* LICENSE */,
 				69743519294DA4A9004A11C6 /* README.md */,
 				697434E8294DA0FF004A11C6 /* netflix-clone */,
 				697434FF294DA100004A11C6 /* netflix-cloneTests */,
