@@ -15,6 +15,7 @@
 		69743501294DA100004A11C6 /* netflix_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69743500294DA100004A11C6 /* netflix_cloneTests.swift */; };
 		6974350B294DA100004A11C6 /* netflix_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6974350A294DA100004A11C6 /* netflix_cloneUITests.swift */; };
 		6974350D294DA100004A11C6 /* netflix_cloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6974350C294DA100004A11C6 /* netflix_cloneUITestsLaunchTests.swift */; };
+		69CEA59E29763F030054A6C6 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CEA59D29763F030054A6C6 /* CollectionViewTableViewCell.swift */; };
 		69DE86EE297056BE002D6056 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE86ED297056BE002D6056 /* HomeViewController.swift */; };
 		69DE86F0297056F6002D6056 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE86EF297056F6002D6056 /* UpcomingViewController.swift */; };
 		69DE86F22970575D002D6056 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE86F12970575D002D6056 /* SearchViewController.swift */; };
@@ -52,6 +53,7 @@
 		6974350A294DA100004A11C6 /* netflix_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = netflix_cloneUITests.swift; sourceTree = "<group>"; };
 		6974350C294DA100004A11C6 /* netflix_cloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = netflix_cloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		69743519294DA4A9004A11C6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		69CEA59D29763F030054A6C6 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		69D1926E294DA6A4003575A7 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		69D1926F294DA6FC003575A7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		69DE86ED297056BE002D6056 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,11 @@
 		697434E8294DA0FF004A11C6 /* netflix-clone */ = {
 			isa = PBXGroup;
 			children = (
+				69CEA59C2975B9D10054A6C6 /* Managers */,
+				69CEA59B2975B9B20054A6C6 /* Resources */,
+				69CEA59A2975B9880054A6C6 /* Models */,
+				69CEA5992975B9780054A6C6 /* ViewModels */,
+				69CEA5982975B95F0054A6C6 /* Views */,
 				69DE86EC29705617002D6056 /* Controllers */,
 				697434E9294DA0FF004A11C6 /* AppDelegate.swift */,
 				697434EB294DA0FF004A11C6 /* SceneDelegate.swift */,
@@ -137,6 +144,42 @@
 				6974350C294DA100004A11C6 /* netflix_cloneUITestsLaunchTests.swift */,
 			);
 			path = "netflix-cloneUITests";
+			sourceTree = "<group>";
+		};
+		69CEA5982975B95F0054A6C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69CEA59D29763F030054A6C6 /* CollectionViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		69CEA5992975B9780054A6C6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		69CEA59A2975B9880054A6C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		69CEA59B2975B9B20054A6C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		69CEA59C2975B9D10054A6C6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		69DE86EC29705617002D6056 /* Controllers */ = {
@@ -282,6 +325,7 @@
 			files = (
 				69DE86F22970575D002D6056 /* SearchViewController.swift in Sources */,
 				697434EE294DA0FF004A11C6 /* MainTabBarViewController.swift in Sources */,
+				69CEA59E29763F030054A6C6 /* CollectionViewTableViewCell.swift in Sources */,
 				69DE86F42970577D002D6056 /* DownloadsViewController.swift in Sources */,
 				697434EA294DA0FF004A11C6 /* AppDelegate.swift in Sources */,
 				697434EC294DA0FF004A11C6 /* SceneDelegate.swift in Sources */,
